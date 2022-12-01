@@ -123,14 +123,12 @@ section#tipos > div > p {
   font-size: 24px;
   line-height: 30px;
 }
-
 section#marcas {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 section#marcas > div {
-  /* max-width: 700px; */
   margin: auto;
 }
 
@@ -187,13 +185,13 @@ section.nos {
   margin: auto;
   padding-bottom: 100px;
 }
-.contact a{
+.contact a {
   text-decoration: none;
 }
-.contact a> p:hover{
-  color: #49C858;
+.contact a > p:hover {
+  color: #49c858;
 }
-.contact  p {
+.contact p {
   color: rgb(58, 58, 58);
   font-family: "Poppins, sans-serif";
   text-align: justify;
@@ -201,7 +199,7 @@ section.nos {
   line-height: 35px;
 }
 
-.contact li{
+.contact li {
   margin-top: 20px;
 }
 
@@ -212,10 +210,9 @@ footer {
   text-align: center;
   padding: 35px 0;
 }
-footer a{
+footer a {
   text-decoration: none;
   color: #ffff;
-  
 }
 .banana img {
   width: 175px;
@@ -300,31 +297,26 @@ footer a{
     line-height: 35px;
   }
 
+  @media screen and (max-width: 500px) {
+    section#tipos > div > p {
+      font-size: 17px;
+      line-height: 23px;
+    }
+    .txtloja > p {
+      color: #3a3a3a;
+      font-family: "Poppins", Sans-serif;
 
-
-
-@media screen and (max-width: 500px) {
-
-  section#tipos > div > p {
-    font-size: 17px;
-    line-height: 23px;
+      text-align: justify;
+      font-size: 17px;
+      line-height: 23px;
+    }
+    div.logo img {
+      width: 136px;
+      border-radius: 15px;
+    }
+    .contact p {
+      font-size: 17px;
+      line-height: 23px;
+    }
   }
-  .txtloja > p {
-    color: #3a3a3a;
-    font-family: "Poppins", Sans-serif;
-
-    text-align: justify;
-    font-size: 17px;
-    line-height: 23px;
-  }
-  div.logo img {
-    width: 136px;
-    border-radius: 15px;
-  }
-  .contact  p {
-    font-size: 17px;
-    line-height: 23px;
 }
-
-
-}}
