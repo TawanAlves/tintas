@@ -1,121 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style/style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-   <script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script>
       function myFunction() {
-   var x = document.getElementById("myTopnav");
-   if (x.className === "topnav") {
-     x.className += " responsive";
-   } else {
-     x.className = "topnav";
-   }
-}
-   </script>
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
 
-   <title>Mandarim Tintas</title>
-</head>
+    <title>Mandarim Tintas</title>
+  </head>
 
-<body>
-   <nav  class="topnav" id="myTopnav">
-      <a href="#"><img src="images/logomandarim2.png" alt="logo marca"></a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-         <i class="fa fa-bars"></i>
-       </a>
-      <a href="#"><p> Produtos </p></a>
-      <a href="#"><p> Marcas Parceiras </p></a>
-      <a href="#"><p> Quem Somos </p></a>
-      <a href="#"><p> Contato </p></a>
-      
-   </nav>
+  <body>
+    <nav class="topnav" id="myTopnav">
+      <div class="banana">
+        <a href="#" .mand>
+          <img src="images/logomandarim2.png" alt="logo marca" />
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <a href="#produtos"><p>Produtos</p></a>
+      <a href="#marcasparceiras"><p>Marcas Parceiras</p></a>
+      <a href="#quemsomos"><p>Quem Somos</p></a>
+      <a href="#contato"><p>Contato</p></a>
+    </nav>
 
-   <div id="wpp">
-      <a href="#"><img src="images/whatsapp-logo.png" alt="Contato"></a>
-   </div>
-   <header>
-     
+    <div id="wpp">
+      <a
+        href="https://api.whatsapp.com/send?phone=5511989161883&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento"
+        ><img src="images/whatsapp-logo.png" alt="Contato"
+      /></a>
+    </div>
+    <header>
       <picture>
-         <source media="(max-width:780px )" srcset="images/paletas2.jpg">
-         <source media="(max-width:330px )" srcset="images/paletas3.jpg">
-         <img src="images/paletas.jpeg" alt="paleta de cores">
+        <source media="(max-width:780px )" srcset="images/paletas2.jpg" />
+        <source media="(max-width:330px )" srcset="images/paletas'3.jpg" />
+        <img src="images/paleta's.jpeg" alt="paleta de cores" />
       </picture>
-   </header>
-   <div class="tipos"> <h1>
-      Conheça os tipos de tintas que trabalhamos
-   </h1></div>
-   <section id="tipos">
+    </header>
+    <div id="produtos"></div>
+    <div id="title">
+      <h1>Conheça os tipos de tintas que trabalhamos</h1>
+    </div>
+    <section id="tipos">
       <div>
-         <img src="images/casa.png" alt="casa">
-         <h3>Imobiliárias </h3>
-         <p>As tintas imobiliarias preço
-            levam esse nome devido a sua
-            usual aplicação ser em imóveis
-            de diversos tipos, como
-            apartamentos, casas, lojas e
-            comércios em geral, escolas etc</p>
+        <img src="images/casa.png" alt="casa" />
+        <h3>Imobiliárias</h3>
+        <p>
+          Tintas ideais para aplicação em diversos tipos de imóveis, como
+          apartamentos, casas, lojas e comércios em geral. Trabalhamos com
+          tintas latex, acrílica e PVA
+        </p>
       </div>
       <div>
-         <img src="images/carro.png" alt="carro">
-         <h3>Automotiva</h3>
-         <p>A tinta automotiva é a tinta usada
-            em automóveis para fins de
-            proteção e decoração. A tinta
-            esmalte de poliuretano acrílico à
-            base de água é atualmente a tinta
-            mais utilizada por razões que
-            incluem a redução do impacto
-            ambiental da tinta.</p>
+        <img src="images/carro.png" alt="carro" />
+        <h3>Automotiva</h3>
+        <p>
+          Tintas ideais para proteção e decoração de automóveis. Trabalhamos com
+          tintas Poliéster, PU e Laca nitrocelulose.
+        </p>
       </div>
       <div>
-         <img src="images/fabrica.png" alt="fabrica">
-         <h3>Industriais</h3>
-         <p>A tinta industrial tem a mesma
-            finalidade da tinta de paredes,
-            com uma diferença básica: ela
-            serve para proteger grandes
-            estruturas, e não apenas de
-            substratos.</p>
+        <img src="images/fabrica.png" alt="fabrica" />
+        <h3>Industriais</h3>
+        <p>
+          A tinta industrial tem a mesma finalidade da tinta de paredes, com uma
+          diferença básica: ela serve para proteger grandes estruturas como
+          pisos e maquinários, e não apenas de substratos.Trabalhamos com
+          Esmalte sintético e Epoxi
+        </p>
       </div>
-   </section>
-
-   <div class="marcas">
+    </section>
+    <div id="marcasparceiras"></div>
+    <div id="title">
       <h1>Marcas que trabalhamos</h1>
-   </div>
-
-   <section id="marcas">
-
+    </div>
+    <section id="marcas">
       <div class="logo">
-         <img src="images/logoAdere.png" alt="logo">
-         <img src="images/logoAuto.png" alt="logo">
-         <img src="images/logoCondor.png" alt="logo">
-         <img src="images/logoCoral.png" alt="logo" style="max-height: 112px;">
-         <img src="images/logoDacar.jpg" alt="logo">
-         <img src="images/logoEuca.png" alt="logo">
-         <img src="images/logoLuks.png" alt="logo" style="padding: 0 40px ;">
-         <img src="images/logoM.png" alt="logo" style="padding: 0 40px ;">
-         <img src="images/logoQUALYVINIL.png" alt="logo">
-         <img src="images/logoSherman.png" alt="logo">
-         <img src="images/LogoSuvinil.png" alt="logo">
-         <img src="images/logoTigre.jpg" alt="logo">
-         <img src="images/logoUniverso.png" alt="logo">
-         
+        <img src="images/logoAdere.png" alt="logo" />
+        <img src="images/logoAuto.png" alt="logo" />
+        <img src="images/logoCondor.png" alt="logo" />
+        <img src="images/logoCoral.png" alt="logo" style="max-height: 112px" />
+        <img src="images/logoDacar.jpg" alt="logo" />
+        <img src="images/logoEuca.png" alt="logo" />
+        <img src="images/logoLuks.png" alt="logo" style="padding: 0 40px" />
+        <img src="images/logoM.png" alt="logo" style="padding: 0 40px" />
+        <img src="images/logoQUALYVINIL.png" alt="logo" />
+        <img src="images/logoSherman.png" alt="logo" />
+        <img src="images/LogoSuvinil.png" alt="logo" />
+        <img src="images/logoTigre.jpg" alt="logo" />
+        <img src="images/logoUniverso.png" alt="logo" />
       </div>
-
-      <div class="tintas">
-         <picture>
-            <source media="(max-width:780px )" srcset="images/tintas2.jpg" >
-            <img src="images/tintas.jpg" alt="baldes_de_tintas" style="max-width: 90%;">
-         </picture>
-        
+    </section>
+    <div id="quemsomos"></div>
+    <div id="title">
+      <h1>Quem Somos</h1>
+    </div>
+    <section class="nos">
+      <div class="loja">
+        <img src="images/mandarim.jpg" alt="frente da loja" />
       </div>
+      <div class="txtloja">
+        <p>
+          A Mandarim Tintas tem o maior estoque de tintas de Carapicuíba e
+          região com 25 anos de mercado. Nossa empresa está preparada para
+          atender nossos clientes com diversos tipos de marca e com os melhores
+          preços. Aqui você encontra os maiores fabricantes do Brasil, como
+          Coral, Suvinil, Luckscolor e outros grandes fabricantes de tintas nos
+          segmentos residenciais, industriais e automotivo. Nos destacamos pela
+          agilidade, variedade de estoque, atenção ao cliente e qualidade de
+          serviço, sempre tendo as melhores soluções para você.
+        </p>
+      </div>
+    </section>
+    <div id="contato"></div>
+    <div class="title">
+      <h1>Fale Conosco</h1>
+    </div>
+    <section class="contact">
+      <p>
+        Entre em contato conosco para tirar quaisquer dúvidas e para receber as
+        melhores ofertas:
+      </p>
+      <ul>
+        <li><a href="https://api.whatsapp.com/send?phone=5511989161883&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento">
+           <p>Whatsapp:(11) 98916-1883</p>
+        </a></li>
+      </ul>
+    </section>
+    <footer>
+      Created by:
+      <a href="https://github.com/TawanAlves" target="_blank">Tawan Alves</a>
+    </footer>
 
-   </section>
-  
-   
-</body>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
 </html>
