@@ -123,6 +123,31 @@ section#tipos > div > p {
   font-size: 24px;
   line-height: 30px;
 }
+.button {
+  margin: -46px 0 0px 0;
+  padding: 70px;
+  background-color: black;
+}
+.button img {
+  width: 70px;
+}
+.button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.button p {
+  font-size: 23px;
+  margin: 7px;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+.button p:hover {
+  color: #49c858;
+}
+
 section#marcas {
   flex-wrap: wrap;
   justify-content: center;
@@ -204,6 +229,7 @@ section.nos {
 }
 
 footer {
+  border-top: 1px solid #fff;
   background-color: black;
   color: #ffff;
   margin: auto;
@@ -317,6 +343,13 @@ footer a {
     .contact p {
       font-size: 17px;
       line-height: 23px;
+    }
+    /* margin: -29px 0 -4px 0;
+    padding: 30px; */
+    .button {
+      margin: -29px 0 -4px 0;
+      padding: 30px;
+      background-color: black;
     }
   }
 }
